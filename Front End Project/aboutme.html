@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<div id="about-me">
+    <h2>About Me</h2>
+    <img src="selfphoto.jpg" alt="Self Photo" width="100" height="100">
+    <p id="description">Hardworking College Student seeking experience. 
+      Bringing forth a motivated attitude and a variety of powerful skills. 
+      Adept in various social environments and technology programs. 
+      Committed to utilizing my skills to further the mission of an organization.</p>
+    <table class="educationhistory" border="1px">
+    <thead>
+      <tr>
+        <th>Year</th>
+        <th>Education</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2016-2019</td>
+        <td>SMP Kolese Kanisius Jakarta</td>
+      </tr>
+      <tr>
+        <td>2019-2022</td>
+        <td>SMA Kolese Kanisius Jakarta</td>
+      </tr>
+    </tbody>
+    </table>
+    <ul id="skills-list">
+      <li>Software: Visual Studio Code, Figma.</li>
+      <li>Programming Languages: Java, HTML.</li>
+    </ul>
+</div>
+
+<script>
+    const aboutMeToggle = document.getElementById("about-me-toggle");
+    const aboutMeSection = document.getElementById("about-me-section");
+    
+    aboutMeToggle.addEventListener("click", function() {
+      aboutMeSection.style.display = (aboutMeSection.style.display === "none") ? "block" : "none";
+    });
+    </script>
+</html>
