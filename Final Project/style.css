@@ -1,0 +1,169 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav li {
+	float: left;
+}
+
+nav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+	background-color: #111;
+}
+
+.active {
+	background-color: #4CAF50;
+}
+
+main {
+	max-width: 800px;
+	margin: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+section {
+	margin-bottom: 40px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0px;
+}
+
+h1 {
+	font-size: 48px;
+	line-height: 1.2em;
+	margin-bottom: 20px;
+}
+
+h2 {
+	font-size: 36px;
+	line-height: 1.2em;
+	margin-bottom: 20px;	
+}
+
+h3 {
+	font-size: 24px;
+	line-height: 1.2em;	
+	margin-bottom: 20px;	
+}
+
+h4 {
+	font-size: 18px;	
+	line-height: 1.2em;	
+	margin-bottom: 20px;	
+}
+
+p {
+	font-size: 16px;	
+	line-height: 1.5em;	
+	margin-bottom: 20px;	
+}
+
+a {
+	color:#333333; 
+	text-decoration:none; 
+	background-color:#FFFFFF; 
+	padding-left:.5em; 
+	padding-right:.5em; 
+	border-radius:.3em
+} 
+
+a:hover { 
+	background-color:#333333; 
+	color:#FFFFFF
+} 
+
+.event-list ul li strong{
+	display:inline-block; 
+	width:auto; 
+	min-width:auto; 
+	padding-right:.5em
+} 
+
+.event-list ul li{
+	display:block
+} 
+
+.event-list ul{
+	list-style:none outside none
+} 
+
+.timeline{
+	position:relative
+} 
+
+.timeline:before{
+	content:''; 
+	position:absolute; 
+	top:-10px; 
+	bottom:-10px; 
+	left:-15px; 
+	width:.2em; 
+	background-color:#333333
+} 
+
+.timeline .event{
+	position:relative
+} 
+
+.timeline .event:before{
+	content:''; 
+	position:absolute; 
+	top:-5px; 
+	left:-5px; 
+	width:.8em; 
+	height:.8em; 
+	border-radius:.8em; 
+	background-color:#FFFFFF
+} 
+
+.timeline .event .date{
+	display:inline-block; 
+	width:auto; 
+	min-width:auto; 
+	padding-right:.5em
+} 
+
+.timeline .event .content{
+	display:inline-block
+} 
+
+form label{
+	display:block
+} 
+
+form input[type="text"], form input[type="tel"], form input[type="email"], form select{
+	display:block; 
+	width:auto
+} 
+
+form input[type="submit"]{
+	display:block
+}
