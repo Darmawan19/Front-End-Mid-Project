@@ -1,0 +1,227 @@
+*{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* Navbar */
+#navbar{
+    display: flex;
+    flex-direction: column;
+    height: 8vh;
+    background:	#fff;
+    position: relative;
+}
+.navbar .navbar-aside{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar .navbar-aside .logo{
+    display: flex;
+    margin: 1vh 1vw;
+}
+.navbar .navbar-aside .logo img{
+    display: flex;
+    width: 5vw;
+    height: auto;
+}
+.navbar .navbar-aside ul{
+    display: flex;
+    flex-direction: row;
+}
+.navbar .navbar-aside ul li{
+    display: flex;
+    margin: 2.5vh 2vw;
+}
+.navbar .navbar-aside ul li a{
+    display: flex;
+    text-decoration: none;
+    color: 	#333333;
+    font-size: 1.35rem;
+    font-weight: bolder;
+}
+/* Font Size */
+.font-size .title h1{
+    display: flex;
+    font-size: 3rem;
+    justify-content: center;
+    margin: 2vh 0;
+}
+.font-size p{
+    display: flex;
+    font-size: 1.5rem;
+}
+/* Landing */
+#landing{
+    display: flex;
+    flex-direction: column;
+    height: 87.5vh;
+    background-color: #f8d1d3;
+    padding: 2.5vh 2vw;
+}
+#landing .landing-aside{
+    display: flex;
+    flex-direction: row;
+}
+#landing .landing-aside .image-logo img{
+    display: flex;
+    width: 25vw;
+    margin: 0 5vw;
+    height: auto;
+}
+#landing .landing-aside .description, #landing .landing-aside .description2{
+    display: flex;
+    margin: 5vh 0;
+}
+#landing .landing-aside .description p{
+    display: flex;
+    text-align: justify;
+    margin: 0 0 0 5vw;
+}
+#landing .landing-aside .description2 p{
+    display: flex;
+    text-align: justify;
+    margin: 0 5vw 0 0;
+}
+/* Event */
+#event{
+    display: flex;
+    flex-direction: column;
+    height: 87.5vh;
+    background-color: #D0F2D9;
+    padding: 2.5vh 2vw;
+}
+
+/* Contact Us */
+#contactUs{
+    display: flex;
+    flex-direction: column;
+    height: 87.5vh;
+    background-color: #6BB1F9;
+    padding: 2.5vh 2vw;
+}
+#contactUs .title{
+    display: flex;
+    justify-content: center;
+}
+#contactUs .title h1{
+    display: flex;
+    font-size: 3rem;
+    margin: 2vh 0;
+    color: #42A626;
+}
+#contactUs .title span{
+    display: flex;
+    font-size: 3rem;
+    margin: 2vh 0 2vh 1vw;
+    color: #00a8ba;
+}
+
+    /* Form */
+/* FirstName & LastName*/
+#event .form-wrapper{
+    width: 40.5vw;
+    margin: 2vh 25vw;
+    padding: 2.5vw;
+    background-color: #f0eeed;
+    border-radius: 15px;
+    box-shadow: 0 0 16px black;
+}
+#event .form-wrapper .form .first-last{
+    display: flex;
+    justify-content: space-between;
+    width: 40vw;
+}
+#event .form-wrapper .form .first-last .first-name{
+    width: 18vw;
+    height: 10vh;
+}
+#event .form-wrapper .form .first-last .last-name{
+    width: 18vw;
+    height: 10vh;
+    margin: 0 0 1vh 0;
+}
+/* FirstName, LastName */
+#event .form .first-name label, .form .last-name label{
+    display: flex;
+    font-style: normal;
+    color: 	black;
+    font-weight: 600;
+    margin: 1vh 0;
+    font-size: 1.75rem;
+}
+#event .form .first-name input, .form .last-name input{
+    display: flex;
+    font-style: normal;
+    color: black;
+    border: 2px solid black;
+    padding: 2vh 1vw;
+    margin: 0 0 1vh 0;
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 1rem;
+    width: 16vw;
+}
+/* Email */
+#event .form .e-mail label{
+    display: flex;
+    font-style: normal;
+    color:black;
+    font-weight: 600;
+    margin: 3.5vh 0 1vh 0;
+    font-size: 1.75rem;
+}
+#event .form .e-mail input{
+    display: flex;
+    font-style: normal;
+    color: black;
+    border: 2px solid black;
+    padding: 2vh 1vw;
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 1rem;
+    width: 38vw;
+}
+/* Password - Confirm Password */
+#event .form .phoneNo label, .form .password-confirm label{
+    display: flex;
+    font-style: normal;
+    color:black;
+    font-weight: 600;
+    margin: 2.5vh 0 1vh 0;
+    font-size: 1.75rem;
+}
+#event .form .phoneNo input, .form .password-confirm input{
+    display: flex;
+    font-style: normal;
+    color: black;
+    border: 2px solid black;
+    padding: 2vh 1vw;
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 1rem;
+    width: 38vw;
+}
+/* next-button */
+#event .form-wrapper .next{
+    display: flex;
+    justify-content: flex-end;
+    margin: 1vh 0;
+}
+#event .form-wrapper .next button{
+    display: flex;
+    background-color: #fcbd1a;
+    border: none;
+    border-radius: 8px;
+    margin: 4vh 0 0 0;
+    padding: 2vh 2.5vw;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    box-shadow: 0 0 4px black;
+}
+#event .form-wrapper .next button:hover{
+    transition: 1s;
+    background-color:#64accd;
+    color: white;
+    border: none;
+}
